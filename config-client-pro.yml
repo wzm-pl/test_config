@@ -1,0 +1,11 @@
+server:
+  port: 9302
+
+spring:
+  application:
+    name: config_server_pro
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8090/eureka/

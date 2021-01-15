@@ -1,0 +1,11 @@
+server:
+  port: 9301
+
+spring:
+  application:
+    name: config_server_dev
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8090/eureka/

@@ -1,0 +1,11 @@
+server:
+  port: 9303
+
+spring:
+  application:
+    name: config_server_test
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8090/eureka/
